@@ -1,0 +1,104 @@
+How I plan to fulfil the UAG requirements
+
+String manipulation
+Perhaps link each Celebrity with an array of victory actions selected at random and output with the win message.
+Output: "Britney wins by 12 points and punctuates her victory by having a break down and shaving her head." 
+victoryMessageBritney = ["having a break down and shaving her head.", " shouting 'hit me baby NO MORE TIMES'"]
+Iterate over the array, select the element at random. Have a default message to cover all contestants.
+
+Inheritance
+Create a class of proFighters with extra properties and methods
+Not sure how this might look but, maybe they can have a method to reduce their opponents eyeOfTheTiger value and always have 
+home advantage points. They can have an extra property "experience" that the celebs can't have.
+
+Write to File
+The same output we have in the console, Fighter showStats() + Victory msg 
+Console.WriteLine("Donald Wins by: " + margin + " fight points." + VictoryMessageDonald);
+Write to file.
+
+Search
+You'll have to help me on this one.
+Maybe search the above text files, (I could add a date) we could search by date. Fighter name. (we could record the number of win/lose)
+Search by fighter with 5+ victories.
+
+You're probably going to have to direct me through quite a few things, because of those missing courses.
+
+Some issues
+Check the syntax for using getters and setters with a method with constructors.
+I might need some advice on the structure of the program. Read my comments to see where I'm going with it.
+
+ public class Celebrity
+    {
+        private double eyeOfTheTiger;
+
+        // This needs to be modified inside the Battle method, i.e the inherited class
+        // ProFighter will reduce the celebrity class eyeOfTheTiger to 0. 
+        public double fightPoints; // pass in fightPoints to battle method
+        private double speed;
+        private readonly double weightAdvantage;
+
+        public Celebrity(string name)
+        {
+            this.name = name;
+        }
+
+        public Celebrity(int id, string name, double height, double weight, double speed, double eyeOfTheTiger)
+        {
+            // Auto increment an ID each time new instance for the purpose of matching Arena home advantage
+
+            this.id = id;
+            this.name = name;
+            this.height = height;
+            this.weight = weight;
+            this.speed = speed;
+            this.eyeOfTheTiger = eyeOfTheTiger;
+            var x = SelectBlade();
+            weightAdvantage = BodyMass(height, weight);
+            fightPoints = height + weight + eyeOfTheTiger + x.length + x.speed / 2 + weightAdvantage;
+        }
+
+        private int id { get; }
+        public string name { get; }
+        private double height { get; }
+        private double weight { get; }1
+        r
+        
+
+        public double Speed
+        {
+            get => speed;
+            set
+            {
+                speed = value;
+                if (speed > 100) speed = 100;
+            }
+        }
+
+        public double EyeOfTheTiger
+        {
+            get => eyeOfTheTiger;
+            set
+            {
+                eyeOfTheTiger = value;
+                if (eyeOfTheTiger > 100) eyeOfTheTiger = 100;
+            }
+        }
+
+
+        private double BodyMass(double height, double weight)
+        {
+            double adv;
+            var x = weight / height;
+            var y = x / height;
+
+            if (y < 18.5)
+                adv = -10;
+            else if (y > 18.5 && y <= 29.4)
+                adv = +10;
+            else if (y > 25.0 && y < 29.9)
+                adv = -10;
+            else
+                adv = -20;
+
+            return adv;
+        }

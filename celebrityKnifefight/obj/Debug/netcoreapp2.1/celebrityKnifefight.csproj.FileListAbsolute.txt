@@ -1,0 +1,12 @@
+/home/trevo/RiderProjects/celebrityKnifefight/celebrityKnifefight/obj/Debug/netcoreapp2.1/celebrityKnifefight.csprojAssemblyReference.cache
+/home/trevo/RiderProjects/celebrityKnifefight/celebrityKnifefight/obj/Debug/netcoreapp2.1/celebrityKnifefight.csproj.CoreCompileInputs.cache
+/home/trevo/RiderProjects/celebrityKnifefight/celebrityKnifefight/obj/Debug/netcoreapp2.1/celebrityKnifefight.AssemblyInfoInputs.cache
+/home/trevo/RiderProjects/celebrityKnifefight/celebrityKnifefight/obj/Debug/netcoreapp2.1/celebrityKnifefight.AssemblyInfo.cs
+/home/trevo/RiderProjects/celebrityKnifefight/celebrityKnifefight/bin/Debug/netcoreapp2.1/celebrityKnifefight.deps.json
+/home/trevo/RiderProjects/celebrityKnifefight/celebrityKnifefight/bin/Debug/netcoreapp2.1/celebrityKnifefight.runtimeconfig.json
+/home/trevo/RiderProjects/celebrityKnifefight/celebrityKnifefight/bin/Debug/netcoreapp2.1/celebrityKnifefight.runtimeconfig.dev.json
+/home/trevo/RiderProjects/celebrityKnifefight/celebrityKnifefight/bin/Debug/netcoreapp2.1/celebrityKnifefight.dll
+/home/trevo/RiderProjects/celebrityKnifefight/celebrityKnifefight/bin/Debug/netcoreapp2.1/celebrityKnifefight.pdb
+/home/trevo/RiderProjects/celebrityKnifefight/celebrityKnifefight/obj/Debug/netcoreapp2.1/celebrityKnifefight.dll
+/home/trevo/RiderProjects/celebrityKnifefight/celebrityKnifefight/obj/Debug/netcoreapp2.1/celebrityKnifefight.pdb
+/home/trevo/RiderProjects/celebrityKnifefight/celebrityKnifefight/bin/Debug/netcoreapp2.1/fightrecords.txt
